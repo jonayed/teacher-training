@@ -1,0 +1,99 @@
+html {
+height : 100% ;
+width : 100% ;
+
+/*background : black;
+color : white ;
+*/}
+body{
+	width:100%;
+	height:inherit;
+}
+.main {
+	position:absolute;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	/*padding-left:20%;
+	padding-right:20%;*/
+	width: 90% ;
+	height:inherit ;
+	background : white ;
+	color : black ;
+}
+.head{
+	height:50px;
+	width:70%;
+	background:#000 ;
+	color:white ;
+	-moz-border-radius:10px;
+
+}
+.body {
+	background-color:#09f;
+	color:black ;
+	width:70%;
+	-moz-border-radius:10px ;
+	
+}
+a{
+	text-decoration:none;
+	color:black;
+	margin:0 auto;
+	text-align:left;
+}
+table{
+	border:solid 2px;
+	-moz-border-radius:5px;
+}
+td,tr,th{
+	border:solid black 2px;
+}
+.search{
+	float:none;
+	/*background-color:blue;*/
+	-moz-border-radius:10px;
+	width:inherit;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+.add{
+	/*float:left;*/
+	text-align:center;
+	width:inherit;
+	/*background-color:green;*/
+	-moz-border-radius:10px;
+	padding:0px;
+	margin:opx;
+	color:black;
+}
+.footer{
+	height:20px;
+	width:70%
+}
+#add table td tr th{
+	float:none;
+	border:none;
+	
+}
+#add_tr table td tr th{
+	border:none;
+}
+ul{
+	float: none;
+	text-align:center;
+	list-style-type:none;
+	margin:0 auto;
+	list-style-position:inside;
+}
+li{
+	border:none;
+	text-align:center;
+	text-decoration:none;
+	margin:0 auto;
+}
+#same{
+	margin:5px;
+	padding:5px;
+}
